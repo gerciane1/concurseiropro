@@ -15,7 +15,7 @@ export const WEBHOOKS = {
   // - action: "read" → retorna array de cards
   // - action: "update" → recebe { id, feedback?, disciplina?, pergunta?, resposta? }
   // - action: "delete" → recebe { id }
-  MULTI: 'https://hook.us2.make.com/hi48uu6eyol54erwy6zqi2nbm9ji83fo',
+  MULTI: 'https://hook.us2.make.com/8gwyo6slfap6i8a4dvlfll60urteyavc',
 };
 
 export const isMakeConfigured = (): boolean => WEBHOOKS.MULTI.trim() !== '';
